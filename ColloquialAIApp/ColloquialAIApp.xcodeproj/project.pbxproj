@@ -29,9 +29,24 @@
 		E5489D112F6A506000A31C6F /* ColloquialAIAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ColloquialAIAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		E5489D612F6A545500A31C6F /* Exceptions for "ColloquialAIApp" folder in "ColloquialAIAppTests" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Data/Network/DTOs/AIAnalysisResponse.swift,
+				Data/Network/DTOs/PhrasalVerbDTO.swift,
+				Domain/Interfaces/AIConversationProvider.swift,
+			);
+			target = E5489D062F6A506000A31C6F /* ColloquialAIAppTests */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		E5489CFA2F6A505F00A31C6F /* ColloquialAIApp */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				E5489D612F6A545500A31C6F /* Exceptions for "ColloquialAIApp" folder in "ColloquialAIAppTests" target */,
+			);
 			path = ColloquialAIApp;
 			sourceTree = "<group>";
 		};
