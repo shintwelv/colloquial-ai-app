@@ -33,9 +33,11 @@
 		E5489D612F6A545500A31C6F /* Exceptions for "ColloquialAIApp" folder in "ColloquialAIAppTests" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Data/Media/AudioPermissionManager.swift,
 				Data/Network/DTOs/AIAnalysisResponse.swift,
 				Data/Network/DTOs/PhrasalVerbDTO.swift,
 				Domain/Interfaces/AIConversationProvider.swift,
+				Domain/Interfaces/AudioRecorderProtocol.swift,
 			);
 			target = E5489D062F6A506000A31C6F /* ColloquialAIAppTests */;
 		};
@@ -415,6 +417,7 @@
 				DEVELOPMENT_TEAM = 77P94MC849;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Microphone to receive your voice";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -447,6 +450,7 @@
 				DEVELOPMENT_TEAM = 77P94MC849;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Use Microphone to receive your voice";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
